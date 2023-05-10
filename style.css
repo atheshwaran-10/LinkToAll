@@ -1,0 +1,147 @@
+*
+{
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+body
+{
+  background: #000;
+}
+.header
+{
+  margin-top: 1%;
+  margin-bottom: 0%;
+  position: absolute;
+  left: 35%;
+}
+.head
+{
+  color: #ffffff;
+  margin-left: 25%;
+  font-family: "Sacramento",cursive;
+  font-size: 3.5rem;
+
+}
+.desc
+{
+  color: #ffffff;
+  margin-top: -10%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserra",cursive;
+}
+.dev
+{
+  position: absolute;
+  display: block;
+  bottom: 50%;
+  left: 60%;
+}
+.coding
+{
+  position: absolute;
+  display: block;
+  bottom: 50%;
+  right: 50%;
+  margin-right: 60px;
+}
+button
+{
+    width: 250px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: "Montserra",cursive;
+    font-size: large;
+}
+span
+{
+    background: #ffffff;
+    height:100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+    color: #000;
+    
+}
+.at
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+.cc
+{
+  position: relative;
+  right: 45px;
+}
+.st
+{
+  position: relative;
+  right: 25px;
+}
+.git
+{
+  position: relative;
+  right: 55px;
+}
+@media only screen and (max-width: 900px) {
+  /* CSS rules for mobile devices */
+  body {
+    display: block;
+  }
+  .head 
+  {
+    position: relative;
+   text-align: center;
+   right: 33%;
+  }
+  .desc
+  {
+    position: relative;
+    left: -20%;
+  }
+  .at
+  {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* CSS rules for mobile devices */
+  body {
+    display: block;
+  }
+  .head 
+  {
+    position: relative;
+    text-align: center;
+    right: 25%;
+  }
+  .desc
+  {
+    position: relative;
+    left: -20%;
+  }
+  .at
+  {
+    margin-left: 5%;
+  }
+}
