@@ -129,6 +129,11 @@ button:hover{
   {
     margin-left: 14%;
   }
+  .coding
+  {
+    position: absolute;
+    right: 20px;
+  }
 
 }
 @media only screen and (max-width: 700px) {
