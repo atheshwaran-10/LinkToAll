@@ -17,8 +17,8 @@ body
 .head
 {
   color: #ffffff;
-  margin-left: 30%;
-  margin-top: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
   font-family: "Sacramento",cursive;
   font-size: 3.5rem;
   position: relative;
@@ -28,7 +28,7 @@ body
 {
   color: #ffffff;
   margin-top: 0%;
-  margin-left: 10%;
+  margin-left: 0%;
   text-align: center;
   font-size: 1.5rem;
   font-family: "Montserra",cursive;
